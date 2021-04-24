@@ -1,0 +1,10 @@
+.buttonsList {
+  list-style: none;
+  display: flex;
+  padding: 0px;
+  justify-content: center;
+}
+
+.buttonsList > li:not(:first-child) {
+  margin-left: 10px;
+}
